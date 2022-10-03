@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/operator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="create-apartment">
+            <form>
+                <h1>Insert Apartment</h1>
+                <input type="text" placeholder="Apartment ID" id="iApartmentID">
+                <input type="file" placeholder="Image" id="iImage">
+                <input type="number" min="0" max="1" placeholder="Light One Status" id="iLOne">
+                <input type="number" min="0" max="1" placeholder="Light Two Status" id="iLTwo">
+                <input type="number" min="0" max="1" placeholder="Light Three Status" id="iLThree">
+                <input type="button" min="0" max="1" value="Create Apartment" id="addApartment"> 
+            </form>
+        </div>
+        <div class="create-user">
+            <form>
+                <h1>Insert User</h1>
+                <input type="text" placeholder="Client ID" id="iUClientID">
+                <input type="text" placeholder="Apartment ID" id="iUApartmentID">
+                <input type="text" placeholder="Firstname" id="iUFirstname">
+                <input type="text" placeholder="Lastname" id="iULastname">
+                <input type="text" placeholder="Username" id="iUsername">
+                <input type="text" placeholder="Phone number" id="iUPhone">
+                <input type="button" min="0" max="1" value="Create User" id="addUser"> 
+            </form>
+        </div>
+        <div class="update-apartment">
+            <form>
+                <h1>Update Apartment</h1>
+                <input type="text" placeholder="Apartment ID" id="uApartmentID">
+                <input type="file" placeholder="Image" id="uImage">
+                <input type="number" min="0" max="1" placeholder="Light One Status"id="uLOne">
+                <input type="number" min="0" max="1" placeholder="Light Two Status"id="uLTwo">
+                <input type="number" min="0" max="1" placeholder="Light Three Status"id="uLThree">
+                <input type="button" min="0" max="1" value="Create Apartment" id="updateApartment"> 
+            </form>
+        </div>
+        <div class="update-user">
+            <form>
+                <h1>Update User</h1>
+                <input type="text" placeholder="Apartment ID" id="uuApartmentID">
+                <input type="text" placeholder="Client ID" id="uuClientID">
+                <input type="text" placeholder="Firstname" id="uuFirstname">
+                <input type="text" placeholder="Lastname" id="uuLastname">
+                <input type="text" placeholder="Username" id="uuUsername">
+                <input type="text" placeholder="Phone number" id="uuPhone">
+                <input type="button" min="0" max="1" value="Create User" id="updateUser"> 
+            </form>
+        </div>
+    </div>
+    <script src="./operator.js"></script>
+</body>
+</html>
